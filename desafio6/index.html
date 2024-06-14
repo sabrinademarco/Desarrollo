@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let producto ={
+            nombre:"Bolso",
+            precio:7000,
+            stock:25,
+        }
+        
+        let productos = [{}]
+
+        producto.nombre="Medias" //Le asigna otro valor con el punto (es objeto más otra propiedad)//
+
+        producto.categoria="Ropa"//se le agrega una nueva PROPIEDAD (con punto y el nombre de la variable/propiedad) //
+
+        delete producto.stock //se borra el stock del producto//
+        
+        alert(`el objeto producto tiene : \nNombre: ${producto.nombre}\nPrecio: ${producto}`)
+
+
+    </script>
+    
+</body>
+</html>
